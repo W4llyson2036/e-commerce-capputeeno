@@ -1,0 +1,80 @@
+.card-items-on-the-cart {
+  height: 211px;
+  display: flex;
+  overflow: hidden;
+  margin-block: 1rem;
+  border-radius: 8px 0px 0px 8px;
+  background-color: #FFFFFF;
+  border: 1px solid rgb(192, 190, 190);
+}
+
+.card-items-on-the-cart img {
+  min-width: 256px;
+}
+
+.card-side-right {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 20px 24px 31px;
+} 
+
+.card-side-right 
+.box1 {
+  display: flex;
+  margin-bottom: 12px;
+  justify-content: space-between;
+}
+
+.card-side-right .box1 .title {
+  font-size: var(--fs-20px);
+  font-weight: var(--fw-light);
+  color: var(--clr-text-dark-gray);
+}
+
+.icon-delete {
+  cursor: pointer;  
+  max-width: 24px;
+}
+
+.card-side-right .text-descrition {
+  margin-bottom: 25px;
+  font-size: var(--fs-12px);
+  font-weight: var(--fw-regular);
+  color: var(--clr-text-dark-gray);
+}
+
+.card-side-right 
+.box2 {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.card-side-right .box2 select {
+  width: 65px;
+  height: 40px;
+  color: #737380;
+  border-radius: 8px;
+  text-align: center;
+  font-size: var(--fs-16px);
+  border: 1px solid #737380;
+  font-weight: var(--fw-regular);
+}
+
+.card-side-right .box2 .total-purchase-price {
+  font-size: var(--fs-16px);
+  font-weight: var(--fw-semiBold);
+  color: var(--clr-text-dark-gray);
+}
+
+@media screen and (max-width: 41.5625rem) {
+  .card-items-on-the-cart {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .card-items-on-the-cart img {
+    min-width: 150px;
+  }
+}

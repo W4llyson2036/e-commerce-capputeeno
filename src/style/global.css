@@ -1,0 +1,21 @@
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+body {
+  padding-bottom: 60px;
+  background-color: var(--clr-main-bg);
+}
+
+.auto-margin-padding {
+  padding-inline: 160px;
+}
+
+@media screen and (max-width: 68.75rem) {
+  .auto-margin-padding{ padding-inline: 100px; }
+}
+
+@media screen and (max-width: 50rem) {
+  .auto-margin-padding{ padding-inline: 30px; }
+}

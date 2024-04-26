@@ -1,0 +1,39 @@
+.payment .icon-btn-back-home {
+  margin: 25px 0px 0px 0px;
+}
+
+.payment {
+  font-family: var(--ff-text);
+}
+
+.payment-main {
+  gap: 2rem;
+  display: flex;
+}
+
+.payment-text-your-cart {
+  margin-bottom: 6px;
+  font-size: var(--fs-24px);
+  font-weight: var(--fw-medium);
+  color: var(--clr-text-medium-gray);
+}
+
+.payment-total-text {
+  margin-bottom: 23px;
+  font-size: var(--fs-16px);
+  color: var(--clr-text-medium-gray);
+}
+
+.payment-total-text span {
+  font-weight: var(--fw-semiBold);
+}
+
+@media screen and (max-width: 81.75rem) {
+  .payment-main {
+    flex-direction: column-reverse;
+  }
+
+  .payment .icon-btn-back-home {
+    margin-bottom: 22px;  
+  }
+}
