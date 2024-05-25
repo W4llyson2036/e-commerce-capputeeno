@@ -12,7 +12,7 @@ export function ViewPayment() {
         <div className="payment auto-margin-padding">
             <Link to='/'>
                 <svg className="icon icon-btn-back-home">
-                    <use xlinkHref="/public/icons.svg#btn-back"></use>
+                    <use xlinkHref="/icons.svg#btn-back"></use>
                 </svg>
             </Link>
     

@@ -12,7 +12,7 @@ export function ItemInTheCart(): JSX.Element {
                         <h2 className='title'>Caneca de cerâmica rústica</h2>
 
                         <svg className="icon icon-delete">
-                            <use xlinkHref="/public/icons.svg#icon-delete-trash"></use>
+                            <use xlinkHref="/icons.svg#icon-delete-trash"></use>
                         </svg>
                     </div>
 

@@ -6,10 +6,10 @@ export function SearchBar(): JSX.Element {
             <InputSearch placeholder="Procurando por algo específico?" />
             
             <svg className="icon icon-search">
-                <use xlinkHref="/public/icons.svg#search-loupe-search-loupe"></use>
+                <use xlinkHref="/icons.svg#search-loupe-search-loupe"></use>
             </svg>
         </SearchBarStyle>
-    );  
+    );   
 }
 
 const SearchBarStyle = styled.div`

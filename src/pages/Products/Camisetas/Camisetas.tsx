@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import { ProductCard } from '../../../components/ProductCard/ProductCard';
 
 export function Camisetas(): JSX.Element {
-    let element = productsData.map((item, key) => {
+    const element = productsData.map((item, key) => {
         const fisrtName = item.name.split(' ')[0];
 
         if (fisrtName == "Camiseta") {

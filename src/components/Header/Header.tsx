@@ -22,7 +22,7 @@ export function Header() {
                 <div className='header-side-right'>
                     <Link to='/payment'>
                         <svg className="icon icon-shopping-bag">  
-                            <use xlinkHref="/public/icons.svg#shopping-bag"></use>
+                            <use xlinkHref="/icons.svg#shopping-bag"></use>
                         </svg>
                     </Link>
                     <span className='count-total-item'>2</span>

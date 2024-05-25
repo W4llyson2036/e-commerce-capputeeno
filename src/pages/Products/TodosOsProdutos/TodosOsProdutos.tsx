@@ -10,7 +10,7 @@ import { ProductCard } from '../../../components/ProductCard/ProductCard';
 import '../TodosOsProdutos/todosOsProdutos.css';
 
 export function TodosOsProdutos(): JSX.Element {
-    let element = productsData.map((item, key) => (
+    const element = productsData.map((item, key) => (
         <Link to={item.id} key={key}>
             <ProductCard 
                 id={item.id}

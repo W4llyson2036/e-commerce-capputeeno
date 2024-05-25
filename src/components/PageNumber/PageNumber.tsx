@@ -11,13 +11,13 @@ export function PageNumber(): JSX.Element {
             
             <button className='icon-arrow-left' aria-label="Próxima página">
                 <svg className="icon">
-                    <use xlinkHref="/public/icons.svg#arrow-left"></use>
+                    <use xlinkHref="/icons.svg#arrow-left"></use>
                 </svg>
             </button>
 
             <button className='icon-arrow-right' aria-label="Página anterior">
                 <svg className="icon ">
-                    <use xlinkHref="/public/icons.svg#arrow-right"></use>
+                    <use xlinkHref="/icons.svg#arrow-right"></use>
                 </svg>
             </button>
         </nav>

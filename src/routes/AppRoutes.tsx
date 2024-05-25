@@ -18,7 +18,6 @@ export const router = createBrowserRouter([
             path: "/",
             element: (
                 <>
-
                     <PageNumber />
                     <TodosOsProdutos />
                     <PageNumber />

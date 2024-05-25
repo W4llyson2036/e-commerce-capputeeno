@@ -30,7 +30,7 @@ export function ViewProduct() {
             <div>
                 <button className='icon-btn-back-home' onClick={() => NAVIGATE(-1)}>
                     <svg className="icon">
-                        <use xlinkHref="/public/icons.svg#btn-back"></use>
+                        <use xlinkHref="/icons.svg#btn-back"></use>
                     </svg>
                 </button>
             </div>
@@ -65,7 +65,7 @@ export function ViewProduct() {
 
                     <button className='btn-add-to-cart'>
                         <svg className="icon icon-shopping-bag">
-                            <use xlinkHref="/public/icons.svg#shopping-bag"></use>
+                            <use xlinkHref="/icons.svg#shopping-bag"></use>
                         </svg>
                         Adicionar ao carrinho
                     </button>
