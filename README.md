@@ -3,7 +3,8 @@
 <img src="public/imageReadME/image.png">
 
 ##  👉 description
-This is a fictional e-commerce platform where users can buy products.
+This is a fictional e-commerce platform where users can buy products. <br>
+**Live demo:** <a href="https://e-commerce-capputeeno-p.web.app/">here</a> 👈
 
 ## 🛠️ technology used
 html <br>
@@ -16,6 +17,6 @@ vite 5.2.0 <br>
 node v21.1.0 <br>
 
 ## instalation
-    git clone
+    git clone https://github.com/W4llyson2036/e-commerce-capputeeno.git
 <!---->
     npm install
